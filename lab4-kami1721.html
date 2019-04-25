@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link href="lab4-kami1721.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  <title></title>
+    
+</head>
+<body>
+  <img id="mainimage" src="pics/main.jpg">
+        <header id="pageheader">
+        <img  id="imageheader" src="pics/coffee-header.jpg">
+      </header>
+    <div id="main">
+      <div class="section1">
+        <div class="main1" >  <img class="picmain" src="pics/1575.10-cashier-icon-iconbunny.jpg">
+        <h1>Cashier</h1></div>
+        <div class="button">
+          <div>
+            <img  class="pic" src="pics/espresso (1).png">
+            <button class="btn" onclick="addOrder('Espresso')">Espresso | 5 $</button>
+          </div>
+          
+          <div>
+            <img class="pic" src="pics/chocolate_mousse.png">
+          <button class="btn" onclick="addOrder('Hot Chocolate')">Hot Chocolate | 3 $</button>
+        </div>
+        <div>
+            <img class="pic" src="pics/coffe.png">
+          <button class="btn" onclick="addOrder('Caffe Latte')">Caffe Latte | 8 $</button>
+        </div>
+        </div>
+        <section id="To-Be-Added">
+        </section>
+         <section id="Total-Amount">
+        </section>
+        <button class="btn" onclick="orderToServe()">Finish order</button>
+      </div>
+
+      <div class="section1">
+         <div class="main1" >  <img class="picmain" src="pics/barista.png">
+        <h1>Barista</h1>
+      </div>
+        <button class="btn" onclick="brewing()">Next Drink</button>
+        <h3>Currently brewing :</h3>
+        <section id="Brewing">
+
+        </section>
+        <section id="Order-To-serve">
+        </section>
+      </div>
+
+      <div class="section1">
+        <div class="main1" >  <img class="picmain" src="pics/person-man.png">
+        <h1>Manager</h1>
+      </div>
+        <section id="Today-Total">
+          
+        </section>
+        <h3>Today's orders</h3>
+        <section id="served-Order1" >
+          
+        </section>
+        <section id="served-Order2" >
+          
+        </section>
+        <section id="served-Order3" >
+          
+        </section>
+
+      </div>
+
+    </div>
+
+   <script src="lab4-kami1721.js"></script>
+</body>
+</html>
+
+
+
